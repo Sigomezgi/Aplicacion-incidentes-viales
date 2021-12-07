@@ -54,10 +54,10 @@ involucrados en él, e igualmente afecta la normal circulación de los vehículo
 que se movilizan por la vía o vías comprendidas en el lugar o dentro de la zona 
 de influencia del hecho''')
     #st.text('Base de datos original[Medata](http://medata.gov.co/dataset/incidentes-viales)')
-    Data = get_data(r'C:/Users/usuario/TAE/Incidentesviales/Datafull.csv')
-    DataLost = get_data(r'C:/Users/usuario/TAE/Incidentesviales/Datalost.csv')
+    #Data = get_data(r'Datafull.csv')
+    DataLost = get_data(r'Datalost.csv')
     
-    st.write(Data.head(8))
+    #st.write(Data.head(8))
     st.subheader('Comparación datos no recuperados contra los datos completos')
     DataLostchart = DataLost.groupby(['MES'])[['Data perdida','Datos completos']].sum()
     DataLostchart = DataLostchart.reset_index()
@@ -80,7 +80,7 @@ tres categórias, según su riesgo de accidente : Alto, Medio, Bajo''')
     st.text('''Cada punto tiene el nombre del barrio y la cantidad de accidentes en promedio
 por mes [Nombre del barrio, Accidentes por mes]''')
     
-    df = pd.read_csv('C:/Users/usuario/TAE/Incidentesviales/geoloca.csv', encoding = 'utf-8')
+    df = pd.read_csv(r'geoloca.csv', encoding = 'utf-8')
     with open('limites.geojson') as limite:
         mapa = json.load(limite)
     df['Accidentes'] = df['Accidentes'].apply(lambda x: round(x))
@@ -225,7 +225,7 @@ with mode_training:
         st.bar_chart(preDf)
     
     
-        
+        print('ok')
         
     
             
