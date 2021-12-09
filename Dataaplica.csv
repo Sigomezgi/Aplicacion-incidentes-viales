@@ -1,0 +1,16 @@
+AÑO,CLASE_ACCIDENTE,DISEÑO,FECHA_ACCIDENTE,GRAVEDAD,MES,NUMCOMUNA,BARRIO,HORA,SEMANA,DIA_DEL_AÑO,DIA_DEL_MES,DIA_SEMANA,LONGITUD,ALTITUD,MOMENTO
+2014,Otro,Tramo de via,2014-08-05,Con heridos,8,11,Los Conquistadores,07:15:00,Semana 32,217,5,Tuesday,-75.5893132,6.2397866157,Mañana
+2014,Choque,Interseccion,2014-08-05,Con heridos,8,5,Girardot,14:30:00,Semana 32,217,5,Tuesday,-75.570817906,6.3000411778,Tarde
+2014,Choque,Tramo de via,2014-08-05,Con heridos,8,14,Patio Bonito,15:50:00,Semana 32,217,5,Tuesday,-75.576574378,6.20874755798,Tarde
+2014,Otro,Tramo de via,2014-08-05,Con heridos,8,8,Villa Hermosa,13:00:00,Semana 32,217,5,Tuesday,-75.551254668,6.25905761463,Tarde
+2014,Choque,Tramo de via,2014-08-05,Con heridos,8,10,Los Ángeles,19:30:00,Semana 32,217,5,Tuesday,-75.556149511,6.24996631944,Noche
+2014,Atropello,Tramo de via,2014-08-05,Con heridos,8,4,Manrique Central No. 1,11:30:00,Semana 32,217,5,Tuesday,-75.55539585,6.26526996037,Mañana
+2014,Choque,Tramo de via,2014-08-05,Solo daños,8,5,Oleoducto,07:40:00,Semana 32,217,5,Tuesday,-75.569297207,6.28057704691,Mañana
+2014,Choque,Tramo de via,2014-08-05,Solo daños,8,3,Las Granjas,10:50:00,Semana 32,217,5,Tuesday,-75.546693204,6.27985291734,Mañana
+2014,Choque,Interseccion,2014-08-05,Solo daños,8,13,El Socorro,20:40:00,Semana 32,217,5,Tuesday,-75.617173959,6.259676219,Noche
+2014,Choque,Interseccion,2014-08-05,Solo daños,8,10,San Benito,09:30:00,Semana 32,217,5,Tuesday,-75.572704639,6.2503927274,Mañana
+2014,Choque,Tramo de via,2014-08-05,Solo daños,8,16,Cerro Nutibara,14:50:00,Semana 32,217,5,Tuesday,-75.576531485,6.2316110532,Tarde
+2014,Choque,Tramo de via,2014-08-05,Solo daños,8,14,La Florida,14:50:00,Semana 32,217,5,Tuesday,-75.566120964,6.2066720945,Tarde
+2014,Choque,Tramo de via,2014-08-05,Solo daños,8,9,Asomadera No. 2,17:50:00,Semana 32,217,5,Tuesday,-75.566103645,6.22059669976,Tarde
+2014,Choque,Tramo de via,2014-08-05,Solo daños,8,16,San Bernardo,15:15:00,Semana 32,217,5,Tuesday,-75.600282521,6.22557160915,Tarde
+2014,Choque,Tramo de via,2014-08-05,Solo daños,8,15,Campo Amor,17:20:00,Semana 32,217,5,Tuesday,-75.580015203,6.21418649511,Tarde

@@ -54,10 +54,9 @@ involucrados en él, e igualmente afecta la normal circulación de los vehículo
 que se movilizan por la vía o vías comprendidas en el lugar o dentro de la zona 
 de influencia del hecho''')
     #st.text('Base de datos original[Medata](http://medata.gov.co/dataset/incidentes-viales)')
-    #Data = get_data(r'Datafull.csv')
+    Data = get_data(r'Dataaplica.csv')
     DataLost = get_data(r'Datalost.csv')
-    
-    #st.write(Data.head(8))
+    st.write(Data.head(8))
     st.subheader('Comparación datos no recuperados contra los datos completos')
     DataLostchart = DataLost.groupby(['MES'])[['Data perdida','Datos completos']].sum()
     DataLostchart = DataLostchart.reset_index()
@@ -197,11 +196,11 @@ with mode_training:
         else:
             Df = Df
         
-        choquemodel = joblib.load('C:/Users/usuario/TAE/Incidentesviales/modelo_choque_entrenado.pkl')
-        atropellomodel = joblib.load('C:/Users/usuario/TAE/Incidentesviales/modelo_Atropello_entrenado.pkl')
-        caidamodel = joblib.load('C:/Users/usuario/TAE/Incidentesviales/modelo_Caida_entrenado.pkl')
-        otromodel = joblib.load('C:/Users/usuario/TAE/Incidentesviales/modelo_Otro_entrenado.pkl')
-        volcamientomodel = joblib.load('C:/Users/usuario/TAE/Incidentesviales/modelo_Volcamiento_entrenado.pkl')
+        choquemodel = joblib.load('modelo_choque_entrenado.pkl')
+        atropellomodel = joblib.load('modelo_Atropello_entrenado.pkl')
+        caidamodel = joblib.load('modelo_Caida_entrenado.pkl')
+        otromodel = joblib.load('modelo_Otro_entrenado.pkl')
+        volcamientomodel = joblib.load('modelo_Volcamiento_entrenado.pkl')
         
         ychoque = choquemodel.predict(Df)
         yatropello = atropellomodel.predict(Df)
@@ -225,7 +224,7 @@ with mode_training:
         st.bar_chart(preDf)
     
     
-        print('ok')
+    print('ok')
         
     
             
