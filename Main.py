@@ -7,7 +7,7 @@ import joblib
 import plotly.graph_objs as go
 import json
 #import sklearn
-from pycaret.regression import *
+# from pycaret.regression import *
 #from streamlit_player import st_player
 
 header = st.container()
