@@ -8,7 +8,7 @@ import plotly.graph_objs as go
 import json
 #import sklearn
 # from pycaret.regression import *
-from streamlit_player import st_player
+# from streamlit_player import st_player
 
 header = st.container()
 Dataset = st.container()
@@ -45,7 +45,7 @@ def get_data(finename):
 
 with header:
     st.title('Crashapp')
-    st_player('https://youtu.be/K-YZjpwqD_Q')
+    # st_player('https://youtu.be/K-YZjpwqD_Q')
 
 
 with Dataset:
